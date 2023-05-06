@@ -23,9 +23,9 @@ Route::get('/dashboard', function () {
     return view('dashboard');
 })->middleware(['auth', 'verified'])->name('dashboard');
 
-Route::resource('ChatBot600', ChatBot600Controller::class)
-    ->only(['index', 'store'])
-    ->middleware(['auth', 'verified']);
+Route::get('/accueil', function () {
+    return view('accueil');
+})->middleware(['auth', 'verified'])->name('accueil');
 
 Route::middleware('auth')->group(function () {
     Route::get('/profile', [ProfileController::class, 'edit'])->name('profile.edit');
