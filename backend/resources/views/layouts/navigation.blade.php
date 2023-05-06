@@ -16,6 +16,26 @@
                         {{ __('Dashboard') }}
                     </x-nav-link>
                 </div>
+                <div class="hidden space-x-8 sm:-my-px sm:ml-10 sm:flex">
+                    <x-nav-link :href="route('accueil')" :active="request()->routeIs('accueil')">
+                        {{ __('Accueil') }}
+                    </x-nav-link>
+                </div>
+                <div class="hidden space-x-8 sm:-my-px sm:ml-10 sm:flex">
+                    <x-nav-link :href="route('apropos')" :active="request()->routeIs('apropos')">
+                        {{ __('A propos') }}
+                    </x-nav-link>
+                </div>
+                <div class="hidden space-x-8 sm:-my-px sm:ml-10 sm:flex">
+                    <x-nav-link :href="route('commencer')" :active="request()->routeIs('commencer')">
+                        {{ __('Commencer') }}
+                    </x-nav-link>
+                </div>
+                <div class="hidden space-x-8 sm:-my-px sm:ml-10 sm:flex">
+                    <x-nav-link :href="route('contact')" :active="request()->routeIs('contact')">
+                        {{ __('Contact') }}
+                    </x-nav-link>
+                </div>
             </div>
 
             <!-- Settings Dropdown -->
@@ -69,6 +89,18 @@
         <div class="pt-2 pb-3 space-y-1">
             <x-responsive-nav-link :href="route('dashboard')" :active="request()->routeIs('dashboard')">
                 {{ __('Dashboard') }}
+            </x-responsive-nav-link>
+            <x-responsive-nav-link :href="route('accueil')" :active="request()->routeIs('accueil')">
+                {{ __('Accueil') }}
+            </x-responsive-nav-link>
+            <x-responsive-nav-link :href="route('apropos')" :active="request()->routeIs('apropos')">
+                {{ __('A propos') }}
+            </x-responsive-nav-link>
+            <x-responsive-nav-link :href="route('commencer')" :active="request()->routeIs('commencer')">
+                {{ __('Commencer') }}
+            </x-responsive-nav-link>
+            <x-responsive-nav-link :href="route('contact')" :active="request()->routeIs('contact')">
+                {{ __('Contact') }}
             </x-responsive-nav-link>
         </div>
 
