@@ -2,7 +2,8 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import { GlobalStyle }  from './styles/global';
-import App, { AnimatedScreen } from './App';
+import App from './App';
+import { AnimatedScreen } from './components/AnimatedScreen';
 
 ReactDOM.render(
   <React.StrictMode>
@@ -10,6 +11,7 @@ ReactDOM.render(
 
     <App />
     <AnimatedScreen/>
+  
   </React.StrictMode>,
   document.getElementById('root')
 );

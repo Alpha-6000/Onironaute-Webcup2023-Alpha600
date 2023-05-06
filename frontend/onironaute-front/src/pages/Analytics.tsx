@@ -11,7 +11,12 @@ const AnalyticsText = styled.div`
 
 const Analytics: React.FunctionComponent = () => {
     return (
-        <AnalyticsText>Analytics</AnalyticsText>
+        <div>
+            <AnalyticsText >
+            Analytics
+            </AnalyticsText>
+        </div>
+       
     )
 }
 

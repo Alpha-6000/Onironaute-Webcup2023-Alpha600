@@ -34,7 +34,7 @@ const MenuIconClose = styled(Link)`
 const SidebarMenu = styled.div<{close: boolean}>`
     width: 250px;
     height: 100vh;
-    background-color: #000080;
+    background-color: #322843;
     position: fixed;
     top: 0;
     left: ${({ close}) => close ? '0' : '-100%'};
@@ -76,13 +76,13 @@ const Sidebar: React.FunctionComponent = () => {
     return (
         <>
             <Navbar>
-                <MenuIconOpen to="#" onClick={showSidebar}>
+                <MenuIconOpen to="#" style={{zIndex:50}} onClick={showSidebar}>
                     <FaIcons.FaBars />
                 </MenuIconOpen>
             </Navbar>
 
-            <SidebarMenu close={close}>
-                <MenuIconClose to="#" onClick={showSidebar}>
+            <SidebarMenu style={{zIndex:150}} close={close}>
+                <MenuIconClose to="#"  onClick={showSidebar}>
                     <FaIcons.FaTimes />
                 </MenuIconClose>
 
