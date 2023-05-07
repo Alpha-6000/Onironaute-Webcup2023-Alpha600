@@ -1,0 +1,30 @@
+.img-footer{
+    width: 70px;
+    height: auto;
+    margin-top: 1px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 5px;
+}
+
+.icon{
+   font-size: 20px;
+   margin-right: 10px;
+   margin-top: -25px;
+ 
+}
+.paraicon{
+    font-size: 12px;
+    color: rgba(0, 0, 0, 0.879);
+}
+.fbicon{
+    text-decoration: none;
+    color: black;
+}
+
+
+.css-1d3z3hw-MuiOutlinedInput-notchedOutline{
+    color: rgba(22, 166, 36, 0.945) !important;
+    border: 2px solid #73cb73 !important;
+}
+

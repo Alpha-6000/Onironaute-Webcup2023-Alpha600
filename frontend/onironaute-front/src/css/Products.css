@@ -1,0 +1,31 @@
+.Product-container{
+    width: 85%;
+    height: auto;
+    justify-content: center;
+    margin-left: 10px;
+    margin-right: 10px;
+     
+}
+.box-product{
+    margin-left: 10px;
+    margin-top : 70px;
+    /* display : flex ;
+    flex-direction: column ; */
+    align-items: center ;
+    justify-content: center;
+    background-color : #f3f2efb0 ;
+    padding : 20px ;
+    box-shadow: rgba(138, 129, 129, 0.102) 2px 1px;
+    text-align: center;
+    width: 200px;    
+    float: left;
+    overflow: auto; 
+    text-align: center;
+}
+
+.img-card{
+    position: relative;
+    top: 20px;
+    left: 20px;
+}
+

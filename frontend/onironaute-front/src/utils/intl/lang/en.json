@@ -1,0 +1,26 @@
+{    
+    "applink.menu1" : "ABOUT US",
+    "applink.m2" : "Studies",
+    "applink.m3" : "Technologies used",
+    "applink.m4" : "Projects",
+
+    "fiche.titre" : "Junior Developer Fullstack",
+    "fiche.specify" : "JavaScript Developer",
+
+    "infoPers.titre": "ABOUT ME",
+    "infoPers.p1" : "I'm a MERN stack developer,",
+    "infoPers.p2" : "I pay attention both in design and functionalities when making an app",
+    "infoPers.p3" : "Like learning new things and sharing what I can share to help others",
+
+    "parcours.titre": "ACADEMIC BACKGROUND",
+    "parcours.fromationODC" : "Learning | Become a Junior Fullstack Developer",
+    "parcours.bachelorCNTEMAD" : "Bachelor in Computer Sciences and Data Base",
+    "parcours.masterUCM" : "Master in Macroeconomics",
+
+    "project.titre" : "PROJECTS",
+    "project.flashcardDescription" : "A web app that help to memorize cards, a card corresponds to an image, so it becomes more easier to remember a picture than a number. The card flips so we try to figure out what number is behind the picture",
+    "project.rgbAT" : "Automatical selector of package" ,
+    "project.rgbATDescription" : "Used arduino with some electronic components and programing, the project consists to make a prototype of a tool which selects packages by their color, can be improved if we want to select fruits" ,
+
+    "contact.titre" : "To contact me"
+}

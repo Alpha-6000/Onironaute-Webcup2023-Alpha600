@@ -1,0 +1,28 @@
+{
+    "applink.menu1" : "A PROPOS DE NOUS",
+    "applink.m2" : "Parcours",
+    "applink.m3" : "Technologies utilisées",
+    "applink.m4" : "Projets",
+    
+    "fiche.titre" : "Developpeur Fullstack Junior",
+    "fiche.specify" : "Developpeur JavaScript",
+    
+    "infoPers.titre": "A PROPOS DE MOI",
+    "infoPers.p1" : "Je suis un developpeur MERN stack ,",
+    "infoPers.p2" : "Je fais attention au design et aux fonctionnalités quand je fais des applications",
+    "infoPers.p3" : "J'aime apprendre de nouvelles choses et partager pour aider les autres" ,
+
+    "parcours.titre": "PARCOURS",
+    "parcours.fromationODC" : "Formation | Developpeur Fullstack Junior",
+    "parcours.bachelorCNTEMAD" : "Licence Informatique-Base de Données et Génie Logiciel",
+    "parcours.masterUCM" : "Master Macroeconomie et Economies Publiques",
+
+    "project.titre" : "PROJETS",
+    "project.flashcardDescription" : "Une application web qui aide à la mémorisation de jeu de cartes, une carte correspond à une image, il est plus facile de retenir une image au lieu d'une carte avec des numeros. La carte se tourne dans son coté envers en cliquant dessus, il faut deviner l'image correspondante",
+    "project.rgbAT" : "Tri automatique de paquet" ,
+    "project.rgbATDescription" : "Utilisation d'une carte arduino avec des composants électroniques et la programmation, le prototype sert à trier des paquets de maniere automatique en fonction de leur couleur, le projet peut etre étendu en triant cette fois-ci des fruits" ,
+    
+    "contact.titre" : "Pour me contacter"
+}
+
+
