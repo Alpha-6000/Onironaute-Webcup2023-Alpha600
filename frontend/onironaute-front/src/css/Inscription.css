@@ -1,0 +1,64 @@
+.box-screenLogin {
+    margin-left: 60px;
+    margin-top : 70px;
+    display : flex ;
+    flex-direction: column ;
+    align-items: left ;
+    background-color : #f3f2efec ;
+    padding : 20px ;
+    box-shadow: rgba(138, 129, 129, 0.102) 2px 1px;
+    text-align: center;
+    width: 500px;
+    border: brown;
+    
+}
+
+.box-screenLogin1 {
+    margin-left: -20px;
+    margin-top : 70px;
+    display : flex ;
+    flex-direction: column ;
+    align-items: center ;
+    background-color : #f3f2efa4 ;
+    padding : 20px ;
+    box-shadow: rgba(138, 129, 129, 0.102) 2px 1px;
+    text-align: center;
+    width: 500px;
+    border: brown;
+    
+}
+
+.textStyle {
+    text-align: center;
+    font-size: x-small;
+    color: #60b460;
+    font-style: bold;
+}
+
+.css-1d3z3hw-MuiOutlinedInput-notchedOutline{
+    color: rgba(22, 166, 36, 0.945) !important;
+    border: 2px solid #73cb73 !important;
+}
+
+.visibility{
+    color: #73cb73;
+    position: relative;
+    top: -45px;
+    left: 200px;
+}
+
+.bouton{
+    color: rgb(96, 96, 96);
+}
+
+.btn {
+    text-decoration: none;
+    border: 2px solid #60b460;
+    color: #60b460;
+    padding: 15px 20px;
+    border-radius: 25px;
+      transition: all 1s;
+    position: relative;
+    overflow: hidden;
+    font-size: smaller;
+}

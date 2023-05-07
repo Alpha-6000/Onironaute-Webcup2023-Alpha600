@@ -1,0 +1,7 @@
+{
+  "projects": {
+    "default": "plant-eco",
+    "staging": "plant-eco"
+  },
+  "targets": {}
+}
