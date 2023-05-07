@@ -25,6 +25,23 @@ Route::get('/', function () {
     ]);
 });
 
+Route::get('/accueil', function () {
+    return view('accueil');
+})->middleware(['auth', 'verified'])->name('accueil');
+
+Route::get('/apropos', function () {
+    return view('apropos');
+})->middleware(['auth', 'verified'])->name('apropos');
+
+Route::get('/commencer', function () {
+    return view('commencer');
+})->middleware(['auth', 'verified'])->name('commencer');
+
+Route::get('/contact', function () {
+    return view('contact');
+})->middleware(['auth', 'verified'])->name('contact');
+
+
 Route::get('/dashboard', function () {
     return Inertia::render('Dashboard');
 })->middleware(['auth', 'verified'])->name('dashboard');
